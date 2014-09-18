@@ -12,6 +12,10 @@ h1 {
     color: #cc9966;
 }
 
+a:link {
+	color: #33cccc;
+}
+
 .page {
     border-width: 20px;
     border-radius: 32px / 32px;
@@ -55,9 +59,24 @@ li {
     background-color: #cc9966;
 }
 
-#navContainer{
+#logo {
+	padding-left: 4em;
+	padding-bottom: 1em;
+	position: relative;
+}
+
+.heading {
 	display: block;
-	width: 120px;
+	width: 100%;
+	margin: -32px auto;
+	padding-bottom: 32px;
+    border-radius: 32px / 32px;
+	background-color: #ebebeb;
+}
+
+#navContainer{
+	display: inline-block;
+	width: 100%;
+    list-style-type: none;
 	text-align: center;
-	padding: 10px;
 }
