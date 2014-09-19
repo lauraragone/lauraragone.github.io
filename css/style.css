@@ -1,5 +1,5 @@
 body {
-	font-family: helvetica;
+	font-family: helvetica neue;
 	background-color: #339999;
 	padding: 4em;
 }
@@ -59,10 +59,16 @@ li {
     background-color: #cc9966;
 }
 
-#logo {
+#logo{
 	padding-left: 4em;
 	padding-bottom: 1em;
-	position: relative;
+	max-width: 430px;
+}
+
+#logo1 {
+	padding-right: 1em;
+	padding-bottom: 1em;
+	max-width: 500px;
 }
 
 .heading {
@@ -74,9 +80,27 @@ li {
 	background-color: #ebebeb;
 }
 
-#navContainer{
-	display: inline-block;
-	width: 100%;
+.footer {
+	display: table;
+	margin: 0 auto;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	font-weight: bold;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+#bottomNav ul{
     list-style-type: none;
-	text-align: center;
+    padding: 0;
+}
+
+#bottomNav li {
+	display: inline;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#bottomNav a {
+	padding: 0 32px;
 }
