@@ -1,3 +1,5 @@
+/* Background and Main Site Content */
+
 body {
 	font-family: helvetica neue;
 	background-color: #339999;
@@ -10,10 +12,18 @@ body {
 
 p {
 	color: #626969;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
-h1 {
+h1, h3{
     color: #cc9966;
+}
+
+h2 {
+	padding-top: 1em;
+	color: #cc9966;
+	font-weight: bold;
 }
 
 a:link {
@@ -30,14 +40,43 @@ a:link {
 	z-index: -1;
 }
 
-ul {
+
+/* Header - Introductory Images and Main Navigation */
+
+.heading {
+	display: block;
+	width: 100%;
+	margin: -32px auto;
+	padding-bottom: 32px;
+    border-radius: 32px / 32px;
+	background-color: #ebebeb;
+	opacity: 0.95;
+	position: relative;
+	z-index: -1;
+}
+
+#logo{
+	padding-left: 4em;
+	padding-bottom: 1em;
+	width: 330px;
+	max-width: 330px;
+}
+
+#logo1 {
+	padding-right: 0.25em;
+	padding-bottom: 1em;
+	width: 400px;
+	max-width: 400px;
+}
+
+#nav ul {
     list-style-type: none;
     margin: 0 32px 0 32px;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+#nav li {
     float: right;
 }
 
@@ -68,45 +107,10 @@ li {
     background-color: #cc9966;
 }
 
-#logo{
-	padding-left: 4em;
-	padding-bottom: 1em;
-	width: 330px;
-	max-width: 330px;
-}
 
-#logo1 {
-	padding-right: 0.25em;
-	padding-bottom: 1em;
-	width: 400px;
-	max-width: 400px;
-}
+/* Footer - Site Navigation Aids and Copyright Info */
 
-.heading {
-	display: block;
-	width: 100%;
-	margin: -32px auto;
-	padding-bottom: 32px;
-    border-radius: 32px / 32px;
-	background-color: #ebebeb;
-	opacity: 0.95;
-	position: relative;
-	z-index: -1;
-}
-
-.copyright {
-	margin: 0;
-	text-align: center;
-	display: block;
-	color: #FFFFFF;
-	padding: 1.5em 0;
-	font-size: 0.75em;
-	opacity: 0.75;
-	text-transform: lowercase;
-	font-weight: lighter;
-}
-
-.footer {
+.menu {
 	display: table;
 	margin: 0 auto;
 	padding-top: 0.25em;
@@ -129,4 +133,16 @@ li {
 
 #bottomNav a {
 	padding: 0 32px;
+}
+
+.copyright {
+	margin: 0;
+	text-align: center;
+	display: block;
+	color: #FFFFFF;
+	padding: 1.5em 0;
+	font-size: 0.75em;
+	opacity: 0.75;
+	text-transform: lowercase;
+	font-weight: lighter;
 }
