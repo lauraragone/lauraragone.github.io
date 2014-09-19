@@ -65,13 +65,15 @@ li {
 #logo{
 	padding-left: 4em;
 	padding-bottom: 1em;
-	max-width: 430px;
+	width: 330px;
+	max-width: 330px;
 }
 
 #logo1 {
-	padding-right: 1em;
+	padding-right: 0.25em;
 	padding-bottom: 1em;
-	max-width: 500px;
+	width: 400px;
+	max-width: 400px;
 }
 
 .heading {
