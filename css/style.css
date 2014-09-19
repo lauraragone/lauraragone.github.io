@@ -2,7 +2,7 @@ body {
 	font-family: helvetica neue;
 	background-color: #339999;
 	background-image: url('../images/subway_bg.png');
-	background-size: 400px 400px; 
+	background-size: 500px 500px; 
     background-repeat: repeat-xy; 
 	padding: 4em;
 }
@@ -24,6 +24,9 @@ a:link {
     border-radius: 32px / 32px;
 	background-color: #ebebeb;
 	padding: inherit;
+	opacity: 0.92;
+	position: relative;
+	z-index: -1;
 }
 
 ul {
@@ -44,6 +47,8 @@ li {
     padding: 0;
     list-style-type: none;
     background-color: #33cccc;
+    position: relative;
+    z-index: 2;
 }
 
 #nav a:link, a:visited {
@@ -83,6 +88,21 @@ li {
 	padding-bottom: 32px;
     border-radius: 32px / 32px;
 	background-color: #ebebeb;
+	opacity: 0.95;
+	position: relative;
+	z-index: -1;
+}
+
+.copyright {
+	margin: 0;
+	text-align: center;
+	display: block;
+	color: #FFFFFF;
+	padding: 1.5em 0;
+	font-size: 0.75em;
+	opacity: 0.75;
+	text-transform: lowercase;
+	font-weight: lighter;
 }
 
 .footer {
@@ -90,7 +110,7 @@ li {
 	margin: 0 auto;
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
-	font-weight: bold;
+	font-weight: bolder;
 	text-transform: lowercase;
 	text-decoration: none;
 }
