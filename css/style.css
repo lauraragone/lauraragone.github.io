@@ -27,7 +27,7 @@ h2 {
 }
 
 a:link {
-	color: #33cccc;
+	color: #339999;
 }
 
 .page {
@@ -133,6 +133,10 @@ a:link {
 
 #bottomNav a {
 	padding: 0 32px;
+}
+
+#bottomNav a:link {
+	color: #FFFFFF;
 }
 
 .copyright {
