@@ -1,0 +1,2 @@
+RewriteCond %{THE_REQUEST} ^.*\/index\.html? 
+RewriteRule ^(.*)index\.html?$ http://lauragone.nyc/$1 [R=301,L]
