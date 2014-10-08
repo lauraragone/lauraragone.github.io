@@ -3,13 +3,34 @@
 	<head>
 		<title>Projects</title>
 		<link href="../css/style.css" type="text/css" rel="stylesheet">
+		
+		<!-- favicons -->
+		<link rel="shortcut icon" href="../images/favicon/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32 64x64" href="../images/favicon/favicon.ico">
+		<link rel="icon" type="image/png" sizes="196x196" href="../images/favicon/favicon-196.png">
+		<link rel="icon" type="image/png" sizes="160x160" href="../images/favicon/favicon-160.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../images/favicon/favicon-96.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="../images/favicon/favicon-64.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../images/favicon/favicon-152.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../images/favicon/favicon-144.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../images/favicon/favicon-120.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../images/favicon/favicon-114.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../images/favicon/favicon-76.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../images/favicon/favicon-72.png">
+		<link rel="apple-touch-icon" href="../images/favicon/favicon-57.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="../images/favicon/favicon-144.png">
+		<meta name="msapplication-config" content="../images/favicon/browserconfig.xml">
+
 	</head>
 
 	<body>
 		<!-- Heading and Navigation -->
 		<div class="heading">
-			<img id="logo" src="../images/logone.svg" alt="A beautiful and compelling logo displaying the name Laura Ragone." float="left" title="A logo!" />
-			<img id="logo1" src="../images/skyline.svg" alt="The NYC skyline as seen from Williamsburg." float="right" title="A design!" />
+			<img id="logo" src="../images/logone.svg" alt="A beautiful and compelling logo displaying the name Laura Ragone." float="left" title="A snazzy logo! Yup, lookin' employable." />
+			<img id="logo1" src="../images/skyline.svg" alt="The NYC skyline as seen from Williamsburg." float="right" title="Oh man, an equally snazzy skyline." />
 		</div>
 		
 		<ul id="nav">
@@ -21,9 +42,15 @@
 
 		<!-- Page Content -->
 		<div class="page">
-			<h1 id="top">I've done things, cool.</h1>
-			<p>Insert compelling evidence of competence here!</p>
-			<p>Ok, the goal is going to be to include a blurb about a project at a glance, with a full thing of expandable/collapsible content. How far can css get me? LETS FIND OUT</p>
+			<span title="Compelling evidence of competence!">
+				<h1 id="top">I've done things, cool.</h1>
+			</span>
+			<p>
+				A single line on a r&eacutesum&eacute doesn't typically do a project justice. Here's some of the more interesting stuff.
+			</p>
+			<p>
+				Check out the blurbs about each project below, and expand them for technical details on anything that catches your eye. There's full reports and code and things. Of course, there'll always be more to add - consider this place a work in progress.
+			</p>
 			<br />
 			
 			
@@ -31,9 +58,16 @@
         		<details>
          			<summary>
          				Weather Bird
-						<p>The flappy bird rip-off that creeps on your location.</p>
+         				<span style="font-size:0.7em; float:right; color: #339999; padding-top: 0.8em; padding-left: 1em; padding-right: 2em;">
+         					Swift
+         				</span>
+						<p>
+							The flappy bird rip-off that creeps on your location.
+						</p>
 					</summary>
-					<p>Insert full description here.</p>
+					<p>
+						Insert full description here.
+					</p>
 				</details>
 			</article>
 			
@@ -42,9 +76,39 @@
         		<details>
          			<summary>
 						bitBytes
-							<p>Pretentious, surprisingly unfun game for iOS using Cocos2d.</p>
+						<span style="font-size:0.7em; float:right; color: #339999; padding-top: 0.8em; padding-left: 1em; padding-right: 2em;">
+							Obj-C
+						</span>
+						<p>
+							<img src="images/bitBytes_logo.png" alt="App Store icon for bitBytes." width="150px" align="left"/>
+						</p>
+						<p>
+							 A fast-paced, real-time puzzle/concentration game developed for iOS using Cocos2d.
+						</p>
+						<p>
+							Stop zombies from taking over a 2-D matrix! Find and tap the zombies in order to stop them from infecting the bits that populate the screen. Bits, you say? How can one tell whether a simple 0 or 1 is a zombie? Therein lies the challenge, my friend. Spot the sluggish (i.e. undead) bits from amongst the rapidly changing values sliding across the stage to save the binary world from the apocalypse.
+						</p>
+						<p>
+							Both casual gamers and puzzle game enthusiasts alike will appreciate the rapid, immersive, concentration-intensive gameplay provided by bitBytes. Have an iOS device? Hunt down zombies while commuting to class or while waiting for that commercial break to end - level designs promote brief, frantic, and frequent gameplay sessions. Like zombie-culture? Think binary looks cool? bitBytes is the game for you!
+						</p>
 					</summary>
-					<p>Insert full description here.</p>
+					<p>
+						<img src="images/scene_flow.png" alt="Scene transition flowchart for bitBytes." width="300px" align="right"/>
+						bitBytes was originally targeted for deployment on iOS 4.3.
+					</p>
+					<p>
+						The complete game includes 16 distinct levels with scaled difficulty, high score and star-ranking system, records view, user-friendly level selection, gameplay instructions, mutable volume, pause/restart functionality, and Game Center integration.
+					</p>
+					<p>
+						Level selection involves dynamically parsing XML using GDataXML (&copy Google). Sprites created via plist.
+					</p>
+					<p>
+						Screenshots are a must. Lots of custom artwork.
+					</p>
+					<p>
+						Insert full description here.
+						<br><br><br><br>
+					</p>
 				</details>
 			</article>
 
@@ -52,49 +116,108 @@
         		<details>
          			<summary>
 						ACM-ICPC Competition Question Collection
-							<p>So many algorithmic problem solving questions. SO MANY D:</p>
+						<span style="font-size:0.7em; float:right; color: #339999; padding-top: 0.8em; padding-left: 1em; padding-right: 2em;">
+							Java/C++
+						</span>
+						<p>
+							<img src="images/icpc_logo.png" alt="Logo for the ACM-ICPC." width="150px" align="right"/>
+						
+							So many algorithmic problem solving questions. SO MANY D:
+							<br><br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
 					</summary>
-					<p>Insert full description here.</p>
+					<p>
+						Insert full description here.
+					</p>
 				</details>
 			</article>
 
-			<article>
+			<!--<article>
         		<details>
          			<summary>
 						Dynamic Memory Allocator
-							<p>Stock, yet painful, project for CSO.</p>
+						<span style="font-size:0.7em; float:right; color: #339999; padding-top: 0.8em; padding-left: 1em; padding-right: 2em;">
+							C++
+						</span>
+						<p>
+							Stock, yet painful, project for CSO.
+						</p>
 					</summary>
-					<p>Insert full description here.</p>
+					<p>
+						Insert full description here.
+					</p>
 				</details>
-			</article>
+			</article>-->
 
 			<article>
         		<details>
          			<summary>
 						Carto, the Autonomous Mapping Robot
-							<p>Spam logo and familiar, generic write-up here!</p>
+						<span style="font-size:0.7em; float:right; color: #339999; padding-top: 0.8em; padding-left: 1em; padding-right: 2em;">
+							Python
+						</span>
+						<p>
+							<img src="images/carto_logo.png" alt="Logo for Carto, the Autonomous Mapping Robot." width="150px" align="left"/>
+
+							Spam logo and familiar, generic write-up here!
+							<br><br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						</p>
 					</summary>
-					<p>Insert full description here.</p>
+					<p>
+						Insert full description here.
+					</p>
 				</details>
 			</article>
 
 			<article>
         		<details>
          			<summary>
-						chameLEON
-							<p>A little lizard, meadering through life and into your heart.</p>
+						PIC-a-Color chameLEON
+						<span style="font-size:0.7em; float:right; color: #339999; padding-top: 0.8em; padding-left: 1em; padding-right: 2em;">
+							Arduino
+						</span>
+						<p>
+							
+							<img src="images/chameLEON_design.png" alt="Poorly Photoshop'd exploded view of the completed LEON ." width="150px" align="right" />
+							<!--<img src="images/leon.png" alt="Initial design proposal for the PIC-a-Color chameLEON Project." width="150px" align="right"/>-->
+							A little lizard, meadering through life and into your heart.
+						</p>
+						<!--<p>
+							<i>PIC-a-Color ChameLeon</i>, or Leon for short, is a mechatronic platform intended for educational purposes in a high school setting.
+						</p>-->
+						<p>
+							Leon imitates a chameleon in nature by changing his color in order to match his surroundings and to fool predators. Leon has two DC motors that allow him to move around, in addition to a color sensor and LEDs that allow him to sense and display colors. His phototransistor and push buttons enable him to sense imminent danger. His body is 3D printed out of ABS plastic, and is mounted on a basic chassis. Leon is programmed and controlled via an Arduino Uno.
+						</p>
+						<!--<p>
+							Leon integrates the principles of biology and engineering sciences by replicating the ability of a chameleon to alter its skin color. The intention is for high school students to be more engaged in the learning process by interacting directly with mechatronic devices that teach them scientific principles.
+						</p>-->
 					</summary>
-					<p>Insert full description here.</p>
+					<p>
+						Insert full description here.
+					</p>
 				</details>
 			</article>
 
 			<article>
         		<details>
          			<summary>
-						Museum Curatory Roombas
-							<p>Cute on paper, evil in application.</p>
+						Tour Guide Roombas
+						<span style="font-size:0.7em; float:right; color: #339999; padding-top: 0.8em; padding-left: 1em; padding-right: 2em;">
+							MatLab
+						</span>
+						<p>
+							<img src="images/roomba_room.png" alt="Roomba room setup." width="150px" align="left"  />
+
+							Cute on paper, evil in application.
+							<br><br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						</p>
 					</summary>
-					<p>Insert full description here.</p>
+					<p>
+						Insert full description here.
+					</p>
 				</details>
 			</article>
 
@@ -102,13 +225,26 @@
         		<details>
          			<summary>
 						Coffee Cup Stirling Engine
-							<p>Because coffee powers all things.</p>
+						<span style="font-size:0.7em; float:right; color: #339999; padding-top: 0.8em; padding-left: 1em; padding-right: 2em;">
+							Solidworks
+						</span>
+						<p>
+							<img src="images/stirling.png" alt="Completed Stirling Engine build in action." width="150px" align="right"  />
+
+							Because coffee powers all things.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						</p>
+						<p>
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						</p>
 					</summary>
-					<p>Insert full description here.</p>
+					<p>
+						Insert full description here.
+					</p>
 				</details>
 			</article>
-			<br />
-			<br />
 	
 		</div>
 

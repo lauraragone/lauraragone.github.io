@@ -16,14 +16,25 @@ p {
 	padding-right: 2.5em;
 }
 
-h1, h3{
+h1 {
     color: #cc9966;
 }
 
-h2 {
+h2, h3 {
 	padding-top: 1em;
 	color: #cc9966;
 	font-weight: bold;
+	display: block;
+}
+
+img {
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+	padding-bottom: 1.5em;
+}
+
+a {
+	text-decoration: none;
 }
 
 a:link, a:visited {
@@ -39,9 +50,13 @@ a:hover, a:active {
 .page {
     border-width: 100%;
     border-radius: 2em / 2em;
-	background-color: #ebebeb;
+	background-color: #efefef;
 	padding: 4em;
 	opacity: 0.92;
+}
+
+.page hr {
+	margin-right: 2em;
 }
 
 
@@ -50,32 +65,39 @@ a:hover, a:active {
 .heading {
 	display: block;
 	width: 100%;
-	margin: -32px auto;
-	padding-bottom: 32px;
-    border-radius: 32px / 32px;
-	background-color: #ebebeb;
+	min-width: 100%;
+	margin: -2em auto;
+	padding-bottom: 2em;
+    border-radius: 2em / 2em;
+	background-color: #efefef;
 	opacity: 0.95;
 	position: relative;
-	z-index: -1;
+	text-align: center;
+	clear: both;
 }
 
 #logo{
-	padding-left: 4em;
+	padding-left: 2em;
 	padding-bottom: 1em;
-	width: 330px;
-	max-width: 330px;
+	width: 33em;
+	max-width: 400px;
+	margin-left: -2.5em;
+	margin-right: -1em;
+
 }
 
 #logo1 {
-	padding-right: 0.25em;
+	padding-right: 2em;
 	padding-bottom: 1em;
-	width: 400px;
+	width: 40em;
 	max-width: 400px;
+	margin-right: -2em;
+	margin-left: -1.5em;
 }
 
 #nav ul {
     list-style-type: none;
-    margin: 0 32px 0 32px;
+    margin: 0 2em 0 2em;
     padding: 0;
     overflow: hidden;
 }
@@ -161,6 +183,21 @@ a:hover, a:active {
 }
 
 
+/* General Links */
+.text a {
+	text-decoration: none;
+	color:#339999;
+}
+
+.text a:link {
+	color:#339999; 
+}
+
+.text a:hover, a:active {
+	color:#33cccc;
+}
+
+
 /* Collapse/Expand Project Page Formatting */
 
 summary::-webkit-details-marker {
@@ -190,7 +227,7 @@ article {
 }
 
 details[open] summary:before {
-	content: "-"; 
+	content: "\2013"; 
 	color: #cc9966;
 }
 
@@ -231,6 +268,7 @@ details details summary {
 	text-align: center;
 	padding-left: 1em;
 	padding-right: 1em;
+	margin-bottom: -1.5em;
 }
 
 .social ul{
@@ -241,4 +279,17 @@ details details summary {
 	display: inline;
 	padding-left: 5%;
     padding-right: 5%;
+}
+
+.social a {
+	text-decoration: none;
+	color:#339999;
+}
+
+.social a:link {
+	color:#339999; 
+}
+
+.social a:hover, a:active {
+	color:#33cccc;
 }
