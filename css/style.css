@@ -31,6 +31,7 @@ img {
 	padding-left: 2.5em;
 	padding-right: 2.5em;
 	padding-bottom: 1.5em;
+	display: inline-block;
 }
 
 a {
@@ -63,7 +64,7 @@ a:hover, a:active {
 /* Header - Introductory Images and Main Navigation */
 
 .heading {
-	display: block;
+	display: inline-block;
 	width: 100%;
 	min-width: 100%;
 	margin: -2em auto;
@@ -73,26 +74,31 @@ a:hover, a:active {
 	opacity: 0.95;
 	position: relative;
 	text-align: center;
-	clear: both;
+	
 }
 
 #logo{
 	padding-left: 2em;
 	padding-bottom: 1em;
-	width: 33em;
-	max-width: 400px;
-	margin-left: -2.5em;
-	margin-right: -1em;
-
+	width: 21em;
+	min-width: 21em;
+	max-width: 21em;
+	margin-left: -1em;
+	margin-right: -2.5em;
+	text-align: justify;
+	clear: both;
 }
 
 #logo1 {
 	padding-right: 2em;
 	padding-bottom: 1em;
-	width: 40em;
-	max-width: 400px;
-	margin-right: -2em;
-	margin-left: -1.5em;
+	width: 21em;
+	min-width: 21em;
+	max-width: 21em;
+	margin-right: -1.5em;
+	margin-left: -2em;
+	text-align: justify;
+	clear: both;
 }
 
 #nav ul {
