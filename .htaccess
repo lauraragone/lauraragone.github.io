@@ -6,3 +6,5 @@ RewriteRule (.*) http://lauragone.nyc/$1 [R=301,L]
 
 RewriteCond %{THE_REQUEST} ^.*/index.html
 RewriteRule ^(.*)index.html$ http://lauragone.nyc/$1 [R=301,L]
+
+RewriteRule ^$ index.html [R=301,L]
