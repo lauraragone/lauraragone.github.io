@@ -85,22 +85,22 @@ a:hover, a:active {
 #logo{
 	padding-top: 2em;
 	padding-bottom: 1em;
-	width: 32em;
-	min-width: 32em;
-	max-width: 32em;
-	margin-right: 0.5em;
-	margin-left: -3em;
+	width: 31em;
+	min-width: 31em;
+	max-width: 31em;
+	margin-left: -5.5em;
+	padding-right: 2.5em;
 	text-align: justify;
 	clear: both;
 }
 
 #logo1 {
 	padding-bottom: 1em;
-	width: 34em;
-	min-width: 34em;
-	max-width: 34em;
-	margin-left: 0.5em;
-	margin-right: -2em;
+	width: 32em;
+	min-width: 32em;
+	max-width: 32em;
+	margin-right: -5.5em;
+	padding-left: 2.5em;
 	text-align: justify;
 	clear: both;
 }
