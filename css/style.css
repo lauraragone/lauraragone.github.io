@@ -234,6 +234,17 @@ summary:before {
 	text-align: center; 
 }
 
+summary:after { 
+	content: "More info"; 
+	color: #626969; 
+	font-weight: normal;
+	display: block; 
+	float: right; 
+	font-size: 0.7em;  
+	padding-right: 6em;
+	text-align: center; 
+}
+
 article {
 	padding-bottom: 1em;
 }
@@ -241,6 +252,10 @@ article {
 details[open] summary:before {
 	content: "\2013"; 
 	color: #cc9966;
+}
+
+details[open] summary:after {
+	content: ""; 
 }
 
 article > details > summary {
