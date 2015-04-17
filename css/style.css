@@ -272,13 +272,6 @@ article > details > summary > p{
 	font-weight: normal;
 }
 
-details > summary > p > ul{
-	font-size: 0.75em;
-	margin-top: 1em;
-	color: #626969;
-	font-weight: normal;
-}
-
 details > p {
 	color: #626969;
 	font-size: 1.1em;
